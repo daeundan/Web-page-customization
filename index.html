@@ -1,0 +1,261 @@
+<!DOCTYPE html>
+<html lang="ko">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- fontawesome -->
+    <script
+      src="https://kit.fontawesome.com/3f2ea24883.js"
+      crossorigin="anonymous"
+    ></script>
+    <!-- custom css & js -->
+    <link rel="stylesheet" href="./style.css" />
+    <script defer src="./script.js"></script>
+    <title>Document</title>
+  </head>
+  <body>
+    <main class="container">
+      <header>
+        <nav>
+          <div class="logo">
+            <img
+              src="https://upload.wikimedia.org/wikipedia/commons/thumb/0/08/Netflix_2015_logo.svg/1280px-Netflix_2015_logo.svg.png"
+              alt="logo"
+            />
+          </div>
+          <div class="search-box">
+            <i class="fa-solid fa-magnifying-glass"></i>
+          </div>
+        </nav>
+      </header>
+      <section class="movie">
+        <div class="imgbox-01">
+          <img src="./img/contets01.jpg" alt="img01" />
+          <img src="./img/contets02.jpg" alt="img02" />
+          <img src="./img/contets03.jpg" alt="img03" />
+          <img src="./img/contents04.jpg" alt="img04" />
+          <img src="./img/contents05.jpeg" alt="img05" />
+          <img src="./img/contents06.jpeg" alt="img06" />
+          <img src="./img/contents07.jpeg" alt="img07" />
+          <img src="./img/contents08.jpeg" alt="img08" />
+          <img src="./img/contents09.jpeg" alt="img09" />
+        </div>
+        <div class="imgbox-02">
+          <img src="./img/Movie01.jpeg" alt="movie01" />
+          <img src="./img/Movie02.jpeg" alt="movie02" />
+          <img src="./img/Movie03.jpeg" alt="movie03" />
+          <img src="./img/Movie04.jpeg" alt="movie04" />
+          <img src="./img/Movie05.jpeg" alt="movie05" />
+          <img src="./img/Movie06.jpeg" alt="movie06" />
+          <img src="./img/Movie07.jpeg" alt="movie07" />
+          <img src="./img/Movie08.jpeg" alt="movie08" />
+          <img src="./img/Movie09.jpeg" alt="movie09" />
+        </div>
+        <div class="imgbox-03">
+          <img src="./img/ani01.jpeg" alt="ani01" />
+          <img src="./img/ani02.jpeg" alt="ani02" />
+          <img src="./img/ani03.jpeg" alt="ani03" />
+          <img src="./img/ani04.jpeg" alt="ani04" />
+          <img src="./img/ani05.jpeg" alt="ani05" />
+          <img src="./img/ani06.jpeg" alt="ani06" />
+          <img src="./img/ani07.jpeg" alt="ani07" />
+          <img src="./img/ani08.jpeg" alt="ani08" />
+          <img src="./img/ani07.jpeg" alt="ani07" />
+          <img src="./img/ani09.jpeg" alt="ani09" />
+        </div>
+      </section>
+      <section class="membership-ad">
+        <div class="ott-ad-inner">
+          <div class="ad-img">
+            <!-- <img src="./img/device-pile.png" alt="ad-img" /> -->
+            <video
+              class="ad-video"
+              data-uia="nmhp-card-animation-asset-video"
+              autoplay=""
+              playsinline=""
+              muted=""
+              loop=""
+            >
+              <source
+                src="https://assets.nflxext.com/ffe/siteui/acquisition/ourStory/fuji/desktop/video-devices.m4v"
+                type="video/mp4"
+              />
+            </video>
+          </div>
+          <div class="ad-text">
+            <h3>
+              어디서나 자유롭게<br />
+              시청하세요
+            </h3>
+            <span
+              >각종 영화와 시리즈를 스마트폰, 태블릿, 노트북, <br />TV에서
+              무제한으로 스트리밍하세요.</span
+            >
+            <form action="http://127.0.0.1:5501" method="get">
+              <input type="button" value="기기 등록하기" />
+            </form>
+          </div>
+        </div>
+        <div class="kids-ad-inner">
+          <div class="ad-text">
+            <h3>
+              자녀를 위한 어린이 전용<br />
+              프로필을 만들어 보세요
+            </h3>
+            <span
+              >자기만의 공간에서 좋아하는 캐릭터와 즐기는 신나는 모험!
+              <br />자녀에게 이 특별한 경험을 선물하세요. <br />
+              넷플릭스 회원이라면 무료입니다.</span
+            >
+            <form action="http://127.0.0.1:5501" method="get">
+              <input type="button" value="프로필 만들기" />
+            </form>
+          </div>
+          <div class="ad-img">
+            <img src="./img/kids-membership-ad.png" alt="ad-img" />
+          </div>
+        </div>
+        <div class="mem-ad-inner">
+          <div class="ad-img">
+            <img src="./img/mobile-0819.jpg" alt="ad-img" />
+          </div>
+          <div class="ad-text">
+            <h3>
+              즐겨보는 콘텐츠를 저장해<br />
+              오프라인으로 시청하세요
+            </h3>
+            <span>비행지, 기차, 잠수함, 어디서든 시청하세요.</span>
+            <form action="http://127.0.0.1:5501" method="get">
+              <input type="button" value="콘텐츠 둘러보기" />
+            </form>
+          </div>
+        </div>
+      </section>
+      <section class="faq">
+        <div class="faq-inner">
+          <h1>자주 묻는 질문</h1>
+          <div class="accordion">
+            <div class="title active">Q1. Netflix란 무엇인가요?</div>
+            <div class="content">
+              A: 넷플릭스(Netflix)는 전 세계적으로 인기 있는 스트리밍 서비스로,
+              영화, TV 시리즈, 다큐멘터리, 애니메이션 등 다양한 콘텐츠를
+              인터넷을 통해 제공하는 플랫폼입니다. 넷플릭스는 또한 오리지널
+              콘텐츠를 제작하여 독점적으로 제공하기도 합니다. 가입자들은 광고
+              없이 원하는 콘텐츠를 언제 어디서나 시청할 수 있으며, 다양한
+              기기에서 쉽게 접근할 수 있습니다.
+            </div>
+            <div class="title">Q2. Netflix 요금은 얼마인가요?</div>
+            <div class="content">
+              A: 넷플릭스 요금은 선택하는 멤버십 플랜에 따라 다릅니다. 기본,
+              스탠다드, 프리미엄 플랜이 있으며, 각 플랜은 화질과 동시 스트리밍
+              가능한 기기 수에 따라 가격이 다릅니다. 최신 요금 정보는 넷플릭스
+              웹사이트에서 확인하실 수 있습니다.
+            </div>
+            <div class="title">Q3. 어디에서 시청 가능한가요?</div>
+            <div class="content">
+              A: 넷플릭스는 인터넷에 연결된 다양한 기기에서 시청할 수 있습니다.
+              스마트 TV, 컴퓨터, 스마트폰, 태블릿, 게임 콘솔 등에서 넷플릭스를
+              이용할 수 있으며, 앱 또는 웹 브라우저를 통해 접속할 수 있습니다.
+            </div>
+            <div class="title">Q4. 멤버십을 해지하려면 어떻게 해야하요?</div>
+            <div class="content">
+              A: 넷플릭스 멤버십은 언제든지 온라인으로 해지할 수 있습니다.
+              웹사이트나 앱에서 ‘계정’으로 이동한 후 ‘멤버십 해지’ 옵션을
+              선택하시면 됩니다. 해지 후에도 다음 결제일 전까지는 넷플릭스
+              서비스를 계속 이용할 수 있습니다.
+            </div>
+            <div class="title">Q5. 어떤 컨텐츠를 시청할 수 있나요?</div>
+            <div class="content">
+              A: 넷플릭스는 다양한 장르의 영화, TV 시리즈, 다큐멘터리,
+              애니메이션 등 수천 편의 콘텐츠를 제공합니다. 오리지널 시리즈와
+              영화도 다수 포함되어 있으며, 연령대별로 적합한 콘텐츠를 선택하여
+              시청할 수 있습니다. 콘텐츠는 국가에 따라 다를 수 있습니다.
+            </div>
+            <div class="title">Q6. 아이들이 시청해도 괜찮을까요?</div>
+            <div class="content">
+              A: 넷플릭스는 다양한 연령대의 시청자를 위한 콘텐츠를 제공합니다.
+              아이들이 안전하게 시청할 수 있도록 자녀 프로필 생성, 시청 제한
+              설정, PIN 보호, 시청 기록 확인 등의 기능을 부모님께서 활용하실 수
+              있습니다. 자녀 프로필에서는 연령에 적합한 콘텐츠만 표시되며,
+              부모님이 설정한 제한에 따라 특정 콘텐츠가 차단될 수 있습니다.
+              또한, PIN을 설정해 자녀가 부적절한 콘텐츠에 접근하지 못하도록
+              보호할 수 있으며, 시청 기록을 통해 자녀가 시청한 콘텐츠를
+              모니터링할 수 있습니다.
+            </div>
+          </div>
+          <div class="newsletter">
+            <p>
+              시청할 준비가 되셨나요?<br />멤버십을 등록하거나 재시작하려면
+              이메일 주소를 입력하세요.
+            </p>
+            <form action="http://127.0.0.1:5501" method="get">
+              <input type="text" name="emailAddress" id="emailAddress" />
+              <input type="submit" value="시작하기" />
+            </form>
+          </div>
+        </div>
+      </section>
+    </main>
+    <div class="modal-search">
+      <div class="close">
+        <i class="fa-solid fa-xmark"></i>
+      </div>
+      <div class="search">
+        <form action="http://127.0.0.1:5501" method="get">
+          <input
+            type="text"
+            name="search-box"
+            id="search-box"
+            placeholder="시청하고자 하는 컨텐츠를 검색해보세요!"
+          />
+          <input type="submit" value="Search" />
+        </form>
+        <p class="hash-tag">
+          #오징어게임시즌2 #파리올림픽 #넷플릭스 #범죄도시4 #실시간생중계
+        </p>
+      </div>
+    </div>
+    <footer>
+      <div class="footer-inner">
+        <h2>질문이 있으신가요? 문의 전화: 00-308-321-0161 (수신자 부담)</h2>
+        <div class="footer_qna_inner">
+          <ul>
+            <li>자주 묻는 질문</li>
+            <li>계정</li>
+            <li>투자 정보(R)</li>
+            <li>넷플릭스 지원 디바이스</li>
+            <li>개인정보 처리 방침</li>
+            <li>회사 정보</li>
+            <li>속도 테스트</li>
+            <li>오직 넷플릭스에서</li>
+          </ul>
+          <ul>
+            <li>고객 센터</li>
+            <li>미디어 센터</li>
+            <li>입사 정보</li>
+            <li>이용 약관</li>
+            <li>쿠키 설정</li>
+            <li>문의하기</li>
+            <li>법적 고지</li>
+          </ul>
+        </div>
+        <div class="footer_end">
+          <h3>넷플릭스 대한민국</h3>
+          <p>
+            넷플릭스서비시스코리아 유한회사<br />
+            통신판매업신고번호: 제2018-서울종로-0426호<br />
+            전화번호: 00-308-321-0161 (수신자 부담)
+            <br />
+            대표: 레지널드 숀 톰프슨 <br />
+            이메일 주소: korea@netflix.com <br />
+            주소: 대한민국 서울특별시 종로구 우정국로 26, 센트로폴리스 A동 20층
+            우편번호 03161 <br />
+            사업자등록번호: 165-87-00119 <br />
+            클라우드 호스팅: Amazon Web Services Inc. <br />
+            공정거래위원회 웹사이트
+          </p>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>
